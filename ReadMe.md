@@ -134,7 +134,7 @@ to do mapreduce (specific to pyspark).
 
 8. Word Processing 3
 
-<img src="/Screenshots/WordProcessing3.JPG" width="300" />
+<img src="/Screenshots/WordProcessing3.JPG" width="600" />
 
 
 #### References
