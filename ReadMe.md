@@ -7,18 +7,31 @@ This project first requires to collect tweets from a twitter developer account b
 #### File Info
 
 -Articles_Export: Directory containing news articles extracted.
+
 -Tweet_JSON: Processed Tweets from Search and Stream twitter API.
+
 -all_data.csv: Final CSV file to generate corpus from.
+
 -AllDataExporter.py: Python Utility to generate entire text corpus from available data sources.
+
 -ArticleExtractor.py: Python Utility program to extract articles in "Articles_Export" directory.
+
 -clean_search.csv: CSV file to store Cleaned Tweets from Search Twitter API.
+
 -clean_stream.csv: CSV file to store Stream Tweets from Stream Twitter API.
+
 -final_count_file.txt: Output file from MapReduce operation.
+
 -raw_search.csv: CSV file to store raw tweets collected from Search Twitter API.
+
 -raw_stream.csv: CSV file to store raw tweets collected from Stream Twitter API.
+
 -reut2-020.sgm and reut2-021: Input (.sgm) file for news corpus.
+
 -spark.py: Python commands executed on Cloud.
+
 -TwitterSearch.py: Program to collect tweets using Twitter Search API.
+
 -TwitterStream.py: Program to collect tweets using Twitter Stream API.  
 
 #### Cluster Setup
@@ -93,35 +106,35 @@ to do mapreduce (specific to pyspark).
 
 1. AWS Instance
 
-<img src="/Screenshots/AWS_Instance.JPG" width="300" />
+<img src="/Screenshots/AWS_Instance.JPG" width="700" />
 
 2. Mongo DB cluster
 
-<img src="/Screenshots/Cluster_Mongo.JPG" width="300" />
+<img src="/Screenshots/Cluster_Mongo.JPG" width="700" />
 
 3. EC2 Dashboard
 
-<img src="/Screenshots/EC2_Dashboard.JPG" width="300" />
+<img src="/Screenshots/EC2_Dashboard.JPG" width="700" />
 
 4. Spark Master Slave
 
-<img src="/Screenshots/spark_master_slave.JPG" width="300" />
+<img src="/Screenshots/spark_master_slave.JPG" width="700" />
 
 5. Word Count Output
 
-<img src="/Screenshots/Word_Counts.JPG" width="300" />
+<img src="/Screenshots/Word_Counts.JPG" width="500" />
 
 6. Word Processing 1
 
-<img src="/Screenshots/Word_Processing1.JPG" width="300" />
+<img src="/Screenshots/Word_Processing1.JPG" width="500" />
 
 7. Word Processing 2
 
-<img src="/Screenshots/Word_Processing2.JPG" width="300" />
+<img src="/Screenshots/WordProcessing2.JPG" width="500" />
 
 8. Word Processing 3
 
-<img src="/Screenshots/Word_Processing3.JPG" width="300" />
+<img src="/Screenshots/WordProcessing3.JPG" width="300" />
 
 
 #### References
